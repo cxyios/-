@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //1.创建一个导航控制器
+         UINavigationController *nav=[[UINavigationController alloc]init];
+         //2.设置导航控制器为window的根视图
+         self.window.rootViewController=nav;
+    
+    
+         //3.添加子控制器到导航控制器中
+         //创建一些控制器
+        ViewController *c1=[[ViewController alloc]init];
+         //设置c1这个控制器的视图颜色
+     //把这些控制器添加到导航控制器中
+         [nav pushViewController:c1 animated:YES];
+        
+    
     return YES;
 }
 

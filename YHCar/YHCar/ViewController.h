@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
+@property (nonatomic ,strong) NSString *ekey;
+@property (nonatomic,strong)NSString *idCard;
 @end
 
