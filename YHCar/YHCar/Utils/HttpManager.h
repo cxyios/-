@@ -12,7 +12,7 @@
 
 typedef void (^HttpConnectStartBlock)(HttpReq* req);
 typedef void (^HttpConnectFinishBlock)(HttpReq* req, BOOL success);
-typedef void (^HttpConnectSuccessBlock)(NSURLSessionDataTask *task,id responseObject);
+typedef void (^HttpConnectSuccessBlock)(NSURLSessionDataTask *task, NSDictionary *dic);
 typedef void (^HttpConnectFailureBlock)(NSURLSessionDataTask *task, NSError *error);
 
 

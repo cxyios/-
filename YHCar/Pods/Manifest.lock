@@ -1,4 +1,6 @@
 PODS:
+  - AFMInfoBanner (1.2.1):
+    - CVKHierarchySearcher (~> 0.2)
   - AFNetworking (2.6.0):
     - AFNetworking/NSURLConnection (= 2.6.0)
     - AFNetworking/NSURLSession (= 2.6.0)
@@ -20,14 +22,18 @@ PODS:
   - AFNetworking/UIKit (2.6.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - CVKHierarchySearcher (0.2.0)
   - MJRefresh (3.1.0)
 
 DEPENDENCIES:
+  - AFMInfoBanner
   - AFNetworking (= 2.6.0)
   - MJRefresh
 
 SPEC CHECKSUMS:
+  AFMInfoBanner: a7bcfd409faa624f043e604ae4fb789c84b22815
   AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  CVKHierarchySearcher: 7be8d3bcbcc6f86ff07f785e6c632b5e40da2553
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
 
 COCOAPODS: 0.39.0

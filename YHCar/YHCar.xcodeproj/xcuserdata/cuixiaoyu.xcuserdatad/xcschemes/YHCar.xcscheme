@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FC4C65F91CB77740007309EB"
-               BuildableName = "YHCar.app"
+               BuildableName = "&#x5143;&#x706b;.app"
                BlueprintName = "YHCar"
                ReferencedContainer = "container:YHCar.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FC4C65F91CB77740007309EB"
-            BuildableName = "YHCar.app"
+            BuildableName = "&#x5143;&#x706b;.app"
             BlueprintName = "YHCar"
             ReferencedContainer = "container:YHCar.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FC4C65F91CB77740007309EB"
-            BuildableName = "YHCar.app"
+            BuildableName = "&#x5143;&#x706b;.app"
             BlueprintName = "YHCar"
             ReferencedContainer = "container:YHCar.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FC4C65F91CB77740007309EB"
-            BuildableName = "YHCar.app"
+            BuildableName = "&#x5143;&#x706b;.app"
             BlueprintName = "YHCar"
             ReferencedContainer = "container:YHCar.xcodeproj">
          </BuildableReference>

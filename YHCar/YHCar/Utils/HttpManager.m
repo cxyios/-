@@ -17,9 +17,13 @@ static NSTimeInterval timeoutInterval = 180;
                                 finish:(HttpConnectFinishBlock)finishBlock
 {
     AFHTTPSessionManager *session = [AFHTTPSessionManager manager];
+    session.responseSerializer = [AFHTTPResponseSerializer serializer];
+
     [session POST:req.api parameters:req.params success:^(NSURLSessionDataTask *task, id responseObject) {
         if(successBlock){
-            successBlock(task,responseObject);
+            NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves error:nil];
+            
+            successBlock(task,dic);
         }
         NSLog(@"成功");
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
